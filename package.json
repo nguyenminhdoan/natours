@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --watch sass/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenminhdoan/natours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenminhdoan/natours/issues"
+  },
+  "homepage": "https://github.com/nguyenminhdoan/natours#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
