@@ -1,0 +1,37 @@
+.test {
+}
+
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 6rem;
+  transform: skewX(-12deg);
+
+  //   display: flex;
+  & > * {
+    transform: skewX(12deg);
+  }
+
+  &__shape {
+    // justify-content: flex-end;
+    float: left;
+    flex-shrink: 0;
+    width: 15rem;
+    height: 15rem;
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem) skewX(12deg);
+  }
+
+  &__text {
+    // width: 60rem;
+  }
+  &__image {
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+  }
+}

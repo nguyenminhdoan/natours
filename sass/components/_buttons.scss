@@ -33,6 +33,22 @@
       opacity: 0;
     }
   }
+  &__green {
+    background-color: $color-secondary-dark;
+    color: #fff;
+    border-radius: 4rem;
+    animation: fadeBottomIn 1s ease-out backwards;
+
+    &::after {
+      background-color: $color-secondary-dark;
+      z-index: -1;
+    }
+
+    &:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
 
   &::after {
     content: "";
